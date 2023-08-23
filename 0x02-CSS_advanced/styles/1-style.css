@@ -3,22 +3,27 @@ html
   scroll-behavior: smooth;  
 }
 
-body{
+/* Set foreground color for body */
+body {
     color: #161616;
-}
-
-a{
+  }
+  
+  /* Set foreground color for all anchor elements */
+  a {
     color: #161616;
-}
-
-.visually-hidden{
+  }
+  
+  /* Hide elements with class visually-hidden */
+  .visually-hidden {
     display: none;
-}
-
-.card-category{
+  }
+  
+  /* Set foreground color for elements with class card-category */
+  .card-category {
     color: #D73953;
-}
-
-.section-tagline{
+  }
+  
+  /* Set foreground color for elements with class section-tagline */
+  .section-tagline {
     color: #D73953;
-}
+  }  
