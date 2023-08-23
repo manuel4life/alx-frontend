@@ -1,0 +1,19 @@
+:root
+{
+    --color-primary: #d73953;
+    --color-secondary: #161616;
+    --color-white: #ffffff;
+    --color-light-gray: #f3f3f3;
+    --color-dark-gray: #353535;
+    --test-color: var(--color-black);
+}
+
+.section-tagline,.card-category
+{
+    color: var(--color-primary);
+}
+
+body,a 
+{
+  color: var(--text-color);
+}
