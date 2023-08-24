@@ -1,44 +1,21 @@
+/* Define custom font-family properties */
 :root {
-    --font-family-base: 'Helvetica Neue';
-}
-
-:root {
-    --font-family-secondary: 'Helvetica';
-}
-
-:root {
-    --font-family-tertiary: 'Arial';
-}
-
-:root {
-    --font-family-fallback: sans-serif;
-}
-
-/* Apply font-family to body */
-body {
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  /* Apply font-family to body */
+  body {
     font-family: var(--font-family-base);
-}
-
-h1 {
-    font-family: var(--font-family-base);
-}
-
-h2 {
-    font-family: var(--font-family-base);
-}
-
-h3 {
-    font-family: var(--font-family-base);
-}
-
-h4 {
-    font-family: var(--font-family-base);
-}
-
-h5 {
-    font-family: var(--font-family-base);
-}
-
-h6 {
-    font-family: var(--font-family-base);
-}
+  }
+  
+  /* Apply font-family to h1 */
+  h1 {
+    font-family: var(--font-family-title);
+  }
+  
+  /* Apply font-family to other section headings */
+  h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+  }
+    
