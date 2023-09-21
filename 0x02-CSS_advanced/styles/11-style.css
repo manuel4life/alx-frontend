@@ -59,6 +59,6 @@
   .section-tagline{
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
-    text-decoration: var(--section-header-align);
+    text-transform: var(--section-tagline-transform);
     color: var(--color-primary);
   }
