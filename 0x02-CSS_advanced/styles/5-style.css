@@ -1,5 +1,3 @@
-/* styles/5-style.css */
-
 :root {
     --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -18,7 +16,7 @@
   
   html {
     scroll-behavior: smooth;
-    --font-size-html: 62.5%;
+    --font-size: 62.5%;
   }
   
   body {
