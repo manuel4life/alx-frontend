@@ -1,29 +1,26 @@
 :root
 {
     --color-primary: #d73953;
-    --color-secondary: #161616;
+    --color-black: #090909;
     --color-white: #ffffff;
     --color-light-gray: #f3f3f3;
     --color-dark-gray: #353535;
     --test-color: var(--color-black);
 }
 
-.section-tagline
-{
+html {
+    scroll-behavior: smooth;
+}
+
+
+.card-category, .section-tagline{
     color: var(--color-primary);
 }
 
-.card-category
-{
-    color: var(--color-primary);
-}
-
-body
-{
+body, a{
     color: var(--text-color);
 }
 
-a 
-{
-  color: var(--text-color);
+.visually-hidden {
+    display: none;
 }
